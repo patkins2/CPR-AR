@@ -30,18 +30,28 @@ public class ChangeText : MonoBehaviour
         switch (counter)
         {
             case 1:
-                displayText.text = "1st Screen";
+                displayText.text = "Is the Scene Safe?" + "\n" + "Personal Protective Equipment" + "\n" + "Check Number of Patients" + "\n" + "Medical or Trauma";
                 counter++;
                 break;
             case 2:
-                displayText.text = "2nd Screen";
+                displayText.text = "AVPU" + "\n" + "Check Carotid & Breathing for 5-10 secs" + "\n" + "Immediate High-Quality Compressions" + "\n" + "Announce 1st & every 20th compression" + "\n" + "Depth of 2 inches" + "\n" + "Change every 200th compression";
                 counter++;
                 break;
             case 3:
-                displayText.text = "3rd Screen";
+                displayText.text = "Open the Airway" + "\n" + "Clear Airway as Needed" + "\n" + "Assists Ventilations with BVM" + "\n" + "Provide High Flow Oxygen to BVM";
+                counter++;
+                break;
+            case 4:
+                displayText.text = "Choose Correct Size" + "\n" + "Test Cuff(King)" + "\n" + "Lubricate Distal End of Tube" + "\n" + "Perform a Tongue-Jaw Lift (King)" + "\n" + "Insert Tube into Corner of Mouth" + "\n" + " Blue Line Should Face the Chin (King)"
+                    + "\n" + "Colored Adapter Should be at the Level of the Lips (King)" + "\n" + "Inflate Cuff(King)" + "\n" + "Attach BVM" + "\n" + "Confirm Tube Placemen" + "\n" + "Measure and Insert OG (King)" + "\n" + "Suction OG / NG / Mouth as Needed"
+                    + "\n" + "Secure Tube to Patient";
                 counter++;
                 break;
 
+            case 5:
+                displayText.text = "Bear paitient's chest" + "\n" + "Apply Pads" + "\n" + "Turn on the defib" + "\n" + "Place QCPR Puck on Chest" + "\n" + "Coach compressor for depth, rate, & recoil" + "\n" + "Ready Next Compressor" + "\n"
+                    + "alpate Femoral Pulse from the 180th to 200th Compressions" + "\n" + "Analyze at 200th Compression" + "\n" + "Clear All Personnel" + "\n" + "Shoch as advised" + "\n" + "Immediately Direct Next Compressor to Begin";
+                break;
             default:
                 displayText.text = "Press OK to begin"; //assuming you've been through the whole menu, counter will reset to 1
                 counter = 1;
