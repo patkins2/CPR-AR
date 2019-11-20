@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ChangeText : MonoBehaviour
 {
     public Text displayText; //the text that is displayed
-    public int counter; //counter for screen navigation
+    private int counter; //counter for screen navigation
 
     void Start()
     {
@@ -47,11 +47,12 @@ public class ChangeText : MonoBehaviour
                     + "\n" + "Secure Tube to Patient";
                 counter++;
                 break;
-
             case 5:
                 displayText.text = "Bear paitient's chest" + "\n" + "Apply Pads" + "\n" + "Turn on the defib" + "\n" + "Place QCPR Puck on Chest" + "\n" + "Coach compressor for depth, rate, & recoil" + "\n" + "Ready Next Compressor" + "\n"
                     + "alpate Femoral Pulse from the 180th to 200th Compressions" + "\n" + "Analyze at 200th Compression" + "\n" + "Clear All Personnel" + "\n" + "Shoch as advised" + "\n" + "Immediately Direct Next Compressor to Begin";
+                counter++;
                 break;
+
             default:
                 displayText.text = "Press OK to begin"; //assuming you've been through the whole menu, counter will reset to 1
                 counter = 1;
