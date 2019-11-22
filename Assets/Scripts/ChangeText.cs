@@ -7,12 +7,17 @@ public class ChangeText : MonoBehaviour
 {
     public Text displayText; //the text that is displayed
     private int counter; //counter for screen navigation
+    [SerializeField] private GameObject panel;
 
     void Start()
     {
         //Text sets your text to say this message
         //displayText.text = "Press Ok to Begin";
         counter = 1;
+        //Vector3 orgTextScale = displayText.transform.localScale;
+        //panel.transform.localScale = new Vector3(0.03f,  0.03f, 0.02104551f);
+        //displayText.transform.localScale = orgTextScale;
+
     }
 
     void Update()
@@ -32,32 +37,43 @@ public class ChangeText : MonoBehaviour
             case 1:
                 displayText.text = "Is the Scene Safe?" + "\n" + "Personal Protective Equipment" + "\n" + "Check Number of Patients" + "\n" + "Medical or Trauma";
                 counter++;
+                //TO DO
+                //Scale Size of the Panel
                 break;
             case 2:
                 displayText.text = "AVPU" + "\n" + "Check Carotid & Breathing for 5-10 secs" + "\n" + "Immediate High-Quality Compressions" + "\n" + "Announce 1st & every 20th compression" + "\n" + "Depth of 2 inches" + "\n" + "Change every 200th compression";
                 counter++;
+                //TO DO
+                //Scale Size of the Panel
                 break;
             case 3:
                 displayText.text = "Open the Airway" + "\n" + "Clear Airway as Needed" + "\n" + "Assists Ventilations with BVM" + "\n" + "Provide High Flow Oxygen to BVM";
                 counter++;
+                //TO DO
+                //Scale Size of the Panel
                 break;
             case 4:
                 displayText.text = "Choose Correct Size" + "\n" + "Test Cuff(King)" + "\n" + "Lubricate Distal End of Tube" + "\n" + "Perform a Tongue-Jaw Lift (King)" + "\n" + "Insert Tube into Corner of Mouth" + "\n" + " Blue Line Should Face the Chin (King)"
                     + "\n" + "Colored Adapter Should be at the Level of the Lips (King)" + "\n" + "Inflate Cuff(King)" + "\n" + "Attach BVM" + "\n" + "Confirm Tube Placemen" + "\n" + "Measure and Insert OG (King)" + "\n" + "Suction OG / NG / Mouth as Needed"
                     + "\n" + "Secure Tube to Patient";
                 counter++;
+                //TO DO
+                //Scale Size of the Panel
                 break;
             case 5:
                 displayText.text = "Bear paitient's chest" + "\n" + "Apply Pads" + "\n" + "Turn on the defib" + "\n" + "Place QCPR Puck on Chest" + "\n" + "Coach compressor for depth, rate, & recoil" + "\n" + "Ready Next Compressor" + "\n"
                     + "alpate Femoral Pulse from the 180th to 200th Compressions" + "\n" + "Analyze at 200th Compression" + "\n" + "Clear All Personnel" + "\n" + "Shoch as advised" + "\n" + "Immediately Direct Next Compressor to Begin";
                 counter++;
+                //TO DO
+                //Scale Size of the Panel
                 break;
 
             default:
                 displayText.text = "Press OK to begin"; //assuming you've been through the whole menu, counter will reset to 1
                 counter = 1;
+                //TO DO
+                //Scale Size of the Panel
                 break;
         }
-        //displayText.text = "test";
     } 
 }
