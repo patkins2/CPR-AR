@@ -8,8 +8,6 @@ public class ChangeText : MonoBehaviour
     public Text displayText; //the text that is displayed
     private int counter; //counter used for change the information on the menu
 
-    //[SerializeField] private GameObject panel;
-
     void Start()
     {
         //displayText.text = "Press Ok to Begin";
@@ -24,8 +22,8 @@ public class ChangeText : MonoBehaviour
             displayText.text = "My text has now changed.";
         }*/
     }
-
-    public void Test()
+    
+    public void Test() //will get called when the button is pressed
     {
         //the value of counter will determine which screen is displayed. More can be added, just create more cases.
         switch (counter)
@@ -44,13 +42,13 @@ public class ChangeText : MonoBehaviour
                 break;
             case 4:
                 displayText.text = "Choose Correct Size" + "\n" + "Test Cuff(King)" + "\n" + "Lubricate Distal End of Tube" + "\n" + "Perform a Tongue-Jaw Lift (King)" + "\n" + "Insert Tube into Corner of Mouth" + "\n" + " Blue Line Should Face the Chin (King)"
-                    + "\n" + "Colored Adapter Should be at the Level of the Lips (King)" + "\n" + "Inflate Cuff(King)" + "\n" + "Attach BVM" + "\n" + "Confirm Tube Placemen" + "\n" + "Measure and Insert OG (King)" + "\n" + "Suction OG / NG / Mouth as Needed"
+                    + "\n" + "Colored Adapter at the Level of the Lips (King)" + "\n" + "Inflate Cuff(King)" + "\n" + "Attach BVM" + "\n" + "Confirm Tube Placemen" + "\n" + "Measure and Insert OG (King)" + "\n" + "Suction OG/NG/Mouth as Needed"
                     + "\n" + "Secure Tube to Patient";
                 counter++;
                 break;
             case 5:
-                displayText.text = "Bear paitient's chest" + "\n" + "Apply Pads" + "\n" + "Turn on the defib" + "\n" + "Place QCPR Puck on Chest" + "\n" + "Coach compressor for depth, rate, & recoil" + "\n" + "Ready Next Compressor" + "\n"
-                    + "alpate Femoral Pulse from the 180th to 200th Compressions" + "\n" + "Analyze at 200th Compression" + "\n" + "Clear All Personnel" + "\n" + "Shoch as advised" + "\n" + "Immediately Direct Next Compressor to Begin";
+                displayText.text = "Bear paitient's chest" + "\n" + "Apply Pads" + "\n" + "Turn on the defib" + "\n" + "Place QCPR Puck on Chest" + "\n" + "Coach compressor for depth,rate,& recoil" + "\n" + "Ready Next Compressor" + "\n"
+                    + "Palpate Femoral Pulse from 180th-200th Compressions" + "\n" + "Analyze at 200th Compression" + "\n" + "Clear All Personnel" + "\n" + "Shoch as advised" + "\n" + "Immediately Direct Next Compressor to Begin";
                 counter++;
                 break;
 
