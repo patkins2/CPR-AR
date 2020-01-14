@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ChangeText : MonoBehaviour
 {
     public Text displayText; //the text that is displayed
     private int counter; //counter used for change the information on the menu
 
-    void Start()
+    public void Start()
     {
         //displayText.text = "Press Ok to Begin";
         counter = 1;
@@ -22,7 +23,7 @@ public class ChangeText : MonoBehaviour
             displayText.text = "My text has now changed.";
         }*/
     }
-    
+
     public void Test() //will get called when the button is pressed
     {
         //the value of counter will determine which screen is displayed. More can be added, just create more cases.
@@ -57,5 +58,14 @@ public class ChangeText : MonoBehaviour
                 counter = 1;
                 break;
         }
-    } 
+    }
+    public void Next() //for voice commands
+    {
+        counter++;
+    }
+
+    public void StartOver()
+    {
+        SceneManager.LoadScene("CPR");
+    }
 }
