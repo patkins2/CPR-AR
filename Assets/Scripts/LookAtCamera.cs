@@ -10,6 +10,7 @@ public class LookAtCamera : MonoBehaviour
         //transform.Rotate( 180,0,0 );
     }
 
+    //will make the panel always face the user
     void Update()
     {
         Vector3 v = cameraToLookAt.transform.position - transform.position;

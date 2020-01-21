@@ -11,17 +11,8 @@ public class ChangeText : MonoBehaviour
 
     public void Start()
     {
-        //displayText.text = "Press Ok to Begin";
+        displayText.text = "Press Ok to Begin";
         counter = 1;
-    }
-
-    void Update()
-    {
-        //Press the space key to change the Text message
-        /*if (Input.GetKey(KeyCode.Space))
-        {
-            displayText.text = "My text has now changed.";
-        }*/
     }
 
     public void Test() //will get called when the button is pressed
@@ -42,14 +33,14 @@ public class ChangeText : MonoBehaviour
                 counter++;
                 break;
             case 4:
-                displayText.text = "Choose Correct Size" + "\n" + "Test Cuff(King)" + "\n" + "Lubricate Distal End of Tube" + "\n" + "Perform a Tongue-Jaw Lift (King)" + "\n" + "Insert Tube into Corner of Mouth" + "\n" + " Blue Line Should Face the Chin (King)"
+                displayText.text = "Choose Correct Size" + "\n" + "Test Cuff(King)" + "\n" + "Lubricate Distal End of Tube" + "\n" + "Perform a Tongue-Jaw Lift (King)" + "\n" + "Insert Tube into Corner of Mouth" + "\n" + "Blue Line Should Face the Chin (King)"
                     + "\n" + "Colored Adapter at the Level of the Lips (King)" + "\n" + "Inflate Cuff(King)" + "\n" + "Attach BVM" + "\n" + "Confirm Tube Placemen" + "\n" + "Measure and Insert OG (King)" + "\n" + "Suction OG/NG/Mouth as Needed"
                     + "\n" + "Secure Tube to Patient";
                 counter++;
                 break;
             case 5:
                 displayText.text = "Bear paitient's chest" + "\n" + "Apply Pads" + "\n" + "Turn on the defib" + "\n" + "Place QCPR Puck on Chest" + "\n" + "Coach compressor for depth,rate,& recoil" + "\n" + "Ready Next Compressor" + "\n"
-                    + "Palpate Femoral Pulse from 180th-200th Compressions" + "\n" + "Analyze at 200th Compression" + "\n" + "Clear All Personnel" + "\n" + "Shoch as advised" + "\n" + "Immediately Direct Next Compressor to Begin";
+                    + "Palpate Femoral Pulse from 180th-200th Compressions" + "\n" + "Analyze at 200th Compression" + "\n" + "Clear All Personnel" + "\n" + "Shock as advised" + "\n" + "Immediately Direct Next Compressor to Begin";
                 counter++;
                 break;
 
@@ -59,20 +50,19 @@ public class ChangeText : MonoBehaviour
                 break;
         }
     }
-    public void Next() //for voice commands
+    public void Next() //In truth, this function isn't necessary. But it makes the keywords in the inspector easier to follow. 
     {
-        //counter++;
         Test();
     }
 
     public void GoBack()
     {
-        counter -= 2;
-        Debug.Log(counter);
+        counter -= 2; //since the counter is incremented in the switch case, you have to subtract 2 in order to go back a page
+        //Debug.Log(counter);
         Test();
     }
 
-    public void StartOver()
+    public void StartOver()//starts the app over, but seems to cause some issue with the audio listener. Need to look into it
     {
         SceneManager.LoadScene("CPR");
     }
