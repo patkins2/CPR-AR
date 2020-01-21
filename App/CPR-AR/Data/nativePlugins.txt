@@ -1,9 +1,12 @@
-VuforiaWrapper.dll
+PerceptionRemotingPlugin.dll
+PerceptionDevice.dll
 PlaneFinding.dll
-VuforiaDL.dll
+Microsoft.Holographic.AppRemoting.dll
 AudioPluginMsHRTF.dll
 MicStreamSelector.dll
+Microsoft.Perception.Simulation.dll
 GpuTiming.dll
-Vuforia.dll
+HolographicStreamer.dll
 SharingClient.dll
+UnityRemotingWMR.dll
 SpatialUnderstanding.dll

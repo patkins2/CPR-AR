@@ -5,7 +5,7 @@ using UnityEngine;
 public class MyUIManager : MonoBehaviour
 {
 
-    [SerializeField] GameObject buttonConnect, button130;
+    [SerializeField] GameObject buttonConnect, panel;
 
     // Use this for initialization
     void Start()
@@ -22,13 +22,31 @@ public class MyUIManager : MonoBehaviour
     public void ShowAllButtons()
     {
         buttonConnect.SetActive(true);
-        //button130.SetActive(true);
     }
 
     public void HideAllButtons()
     {
         buttonConnect.SetActive(false);
-        //button130.SetActive(false);
     }
 
+    public void HidePanel()
+    {
+        panel.SetActive(false);
+    }
+
+    public void ShowPanel()
+    {
+        panel.SetActive(true);
+    }
+
+    public void HideAll()
+    {
+        buttonConnect.SetActive(false);
+        panel.SetActive(false);
+    }
+    public void ShowAll()
+    {
+        buttonConnect.SetActive(true);
+        panel.SetActive(true);
+    }
 }

@@ -61,7 +61,15 @@ public class ChangeText : MonoBehaviour
     }
     public void Next() //for voice commands
     {
-        counter++;
+        //counter++;
+        Test();
+    }
+
+    public void GoBack()
+    {
+        counter -= 1;
+        Debug.Log(counter);
+        Test();
     }
 
     public void StartOver()
