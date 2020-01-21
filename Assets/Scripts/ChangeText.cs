@@ -67,7 +67,7 @@ public class ChangeText : MonoBehaviour
 
     public void GoBack()
     {
-        counter -= 1;
+        counter -= 2;
         Debug.Log(counter);
         Test();
     }
