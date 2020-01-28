@@ -8,15 +8,18 @@ public class ChangeText : MonoBehaviour
 {
     public Text displayText; //the text that is displayed
     private int counter; //counter used for change the information on the menu
+    public TextMesh button;
 
     public void Start()
     {
-        displayText.text = "Press Ok to Begin";
+        displayText.text = "Press Begin";
+        button.text = "Begin";
         counter = 1;
     }
 
     public void Test() //will get called when the button is pressed
     {
+        button.text = "Next";
         //the value of counter will determine which screen is displayed. More can be added, just create more cases.
         switch (counter)
         {
@@ -33,19 +36,32 @@ public class ChangeText : MonoBehaviour
                 counter++;
                 break;
             case 4:
-                displayText.text = "Choose Correct Size" + "\n" + "Test Cuff(King)" + "\n" + "Lubricate Distal End of Tube" + "\n" + "Perform a Tongue-Jaw Lift (King)" + "\n" + "Insert Tube into Corner of Mouth" + "\n" + "Blue Line Should Face the Chin (King)"
-                    + "\n" + "Colored Adapter at the Level of the Lips (King)" + "\n" + "Inflate Cuff(King)" + "\n" + "Attach BVM" + "\n" + "Confirm Tube Placemen" + "\n" + "Measure and Insert OG (King)" + "\n" + "Suction OG/NG/Mouth as Needed"
-                    + "\n" + "Secure Tube to Patient";
+                displayText.text = "Choose Correct Size" + "\n" + "Test Cuff(King)" + "\n" + "Lubricate Distal End of Tube" + "\n" + "Perform a Tongue-Jaw Lift (King)" + "\n" + "Insert Tube into Corner of Mouth";
                 counter++;
                 break;
             case 5:
-                displayText.text = "Bear paitient's chest" + "\n" + "Apply Pads" + "\n" + "Turn on the defib" + "\n" + "Place QCPR Puck on Chest" + "\n" + "Coach compressor for depth,rate,& recoil" + "\n" + "Ready Next Compressor" + "\n"
-                    + "Palpate Femoral Pulse from 180th-200th Compressions" + "\n" + "Analyze at 200th Compression" + "\n" + "Clear All Personnel" + "\n" + "Shock as advised" + "\n" + "Immediately Direct Next Compressor to Begin";
+                displayText.text = "Blue Line Should Face the Chin (King)" + "\n" + "Colored Adapter at the Level of Lips(King)" + "\n" + "Inflate Cuff(King)" + "\n" + "Attach BVM";
                 counter++;
                 break;
-
+            case 6:
+                displayText.text = "Confirm Tube Placemen" + "\n" + "Measure and Insert OG (King)" + "\n" + "Suction OG/NG/Mouth as Needed" + "\n" + "Secure Tube to Patient";
+                counter++;
+                break;
+            case 7:
+                displayText.text = "Bear paitient's chest" + "\n" + "Apply Pads" + "\n" + "Turn on the defib" + "\n" + "Place QCPR Puck on Chest" + "\n" + "Coach compressor for depth,rate,& recoil";
+                counter++;
+                break;
+            case 8:
+                displayText.text = "Ready Next Compressor" + "\n" + "Palpate Femoral Pulse from 180th-200th Compressions" + "\n" + "Analyze at 200th Compression";
+                counter++;
+                break;
+            case 9:
+                displayText.text = "Clear All Personnel" + "\n" + "Shock as advised" + "\n" + "Immediately Direct Next Compressor to Begin";
+                counter++;
+                break;
             default:
-                displayText.text = "Press OK to begin"; //assuming you've been through the whole menu, counter will reset to 1
+                displayText.text = "Press Begin"; //assuming you've been through the whole menu, counter will reset to 1
+                button.text = "Begin";
                 counter = 1;
                 break;
         }
@@ -64,6 +80,7 @@ public class ChangeText : MonoBehaviour
 
     public void StartOver()//starts the app over, but seems to cause some issue with the audio listener. Need to look into it
     {
-        SceneManager.LoadScene("CPR");
+        //SceneManager.LoadScene("CPR");
+        Application.LoadLevel(Application.loadedLevel);
     }
 }
