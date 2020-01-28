@@ -4,22 +4,8 @@ using UnityEngine;
 
 public class MyUIManager : MonoBehaviour
 {
-
     [SerializeField] GameObject okButton, panel;
-
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-
+ 
     //functions that enable or disable the button and panel
     public void ShowAllButtons()
     {
