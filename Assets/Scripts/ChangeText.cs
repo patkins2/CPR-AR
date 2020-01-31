@@ -7,19 +7,22 @@ using UnityEngine.SceneManagement;
 public class ChangeText : MonoBehaviour
 {
     public Text displayText; //the text that is displayed
-    private int counter; //counter used for change the information on the menu
+    public static int counter; //counter used for change the information on the menu
     public TextMesh button;
+    List<string> list = new List<string>();
 
     public void Start()
     {
         displayText.text = "Press Begin";
         button.text = "Begin";
-        counter = 1;
+        counter = 0;
+        readData();
     }
 
     public void Test() //will get called when the button is pressed
     {
         button.text = "Next";
+        //Debug.Log(list[0]);
         //the value of counter will determine which screen is displayed. More can be added, just create more cases.
         switch (counter)
         {
@@ -68,19 +71,62 @@ public class ChangeText : MonoBehaviour
     }
     public void Next() //In truth, this function isn't necessary. But it makes the keywords in the inspector easier to follow. 
     {
-        Test();
+        if (SceneManager.GetActiveScene().name.Equals("CPR") || SceneManager.GetActiveScene().name.Equals("test"))
+        {
+            Test();
+        }
+        else
+        {
+            OneLine();
+        }
     }
 
     public void GoBack()
     {
         counter -= 2; //since the counter is incremented in the switch case, you have to subtract 2 in order to go back a page
         //Debug.Log(counter);
-        Test();
+        if (SceneManager.GetActiveScene().name.Equals("CPR") || SceneManager.GetActiveScene().name.Equals("test"))
+        {
+            Test();
+        }
+        else
+        {
+            OneLine();
+        }
     }
 
     public void StartOver()//starts the app over, but seems to cause some issue with the audio listener. Need to look into it
     {
         //SceneManager.LoadScene("CPR");
         Application.LoadLevel(Application.loadedLevel);
+    }
+
+    public void readData()
+    {
+        TextAsset textAsset = Resources.Load<TextAsset>("cpr_insructions");
+        string[] reader = textAsset.text.Split(new char[] { '\n' });
+        string[] line = reader[0].Split(',');
+
+        for (int i = 0; i < reader.Length; i++)
+        {
+            line = reader[i].Split(',');
+            list.Add((line[0]));
+        }
+    }
+
+    public void OneLine()
+    {
+        if (counter >= list.Count - 1)
+        {
+            counter = 0;
+            displayText.text = "Press Begin";
+            button.text = "Begin";
+        }
+        else
+        {
+            displayText.text = list[counter];
+            button.text = "Next";
+            counter++;
+        }
     }
 }

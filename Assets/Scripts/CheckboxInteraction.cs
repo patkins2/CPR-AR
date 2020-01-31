@@ -5,18 +5,20 @@ using UnityEngine;
 public class CheckboxInteraction : MonoBehaviour
 {
     public GameObject buttonIdle;
-    private bool isChecked;
+    private static bool isChecked;
+    Material checkedOff;
+    Material wireframe;
+
     void Start()
     {
-         isChecked = false;
+        isChecked = false;
+        //setting the materials
+        checkedOff = Resources.Load("check", typeof(Material)) as Material;
+        wireframe = Resources.Load("wireframe", typeof(Material)) as Material;
     }
     
     public void ChangeMaterial()
-    {
-        //setting the materials
-        Material checkedOff = Resources.Load("check", typeof(Material)) as Material;
-        Material wireframe = Resources.Load("wireframe", typeof(Material)) as Material;
-
+    {     
         //if the box is tapped, change the material
         if (isChecked == false)
         {
@@ -28,5 +30,10 @@ public class CheckboxInteraction : MonoBehaviour
             buttonIdle.GetComponent<Renderer>().material = wireframe;
             isChecked = false;
         }   
+    }
+
+    public void Update()
+    {
+        //if()
     }
 }
