@@ -10,6 +10,7 @@ public class ChangeText : MonoBehaviour
     public static int counter; //counter used for change the information on the menu
     public TextMesh button;
     List<string> list = new List<string>();
+    public GameObject checkbox;
 
     public void Start()
     {
@@ -17,12 +18,15 @@ public class ChangeText : MonoBehaviour
         button.text = "Begin";
         counter = 0;
         readData();
+        checkbox = GameObject.FindGameObjectWithTag("checkbox");
+        checkbox.SetActive(false);
     }
 
     public void Test() //will get called when the button is pressed
     {
         button.text = "Next";
         //Debug.Log(list[0]);
+
         //the value of counter will determine which screen is displayed. More can be added, just create more cases.
         switch (counter)
         {
@@ -83,8 +87,7 @@ public class ChangeText : MonoBehaviour
 
     public void GoBack()
     {
-        counter -= 2; //since the counter is incremented in the switch case, you have to subtract 2 in order to go back a page
-        //Debug.Log(counter);
+        counter -= 2; //since the counter is incremented in the switch case (or in OneLine), you have to subtract 2 in order to go back a page
         if (SceneManager.GetActiveScene().name.Equals("CPR") || SceneManager.GetActiveScene().name.Equals("test"))
         {
             Test();
@@ -116,17 +119,19 @@ public class ChangeText : MonoBehaviour
 
     public void OneLine()
     {
-        if (counter >= list.Count - 1)
+        if (counter >= list.Count - 1 || counter < 0)
         {
             counter = 0;
             displayText.text = "Press Begin";
             button.text = "Begin";
+            checkbox.SetActive(false);
         }
         else
         {
             displayText.text = list[counter];
             button.text = "Next";
             counter++;
+            checkbox.SetActive(true);
         }
     }
 }

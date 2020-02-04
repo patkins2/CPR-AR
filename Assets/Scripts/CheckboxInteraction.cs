@@ -31,9 +31,4 @@ public class CheckboxInteraction : MonoBehaviour
             isChecked = false;
         }   
     }
-
-    public void Update()
-    {
-        //if()
-    }
 }
