@@ -10,7 +10,8 @@ public class ChangeText : MonoBehaviour
     public static int counter; //counter used for change the information on the menu
     public TextMesh button;
     List<string> list = new List<string>();
-    public GameObject checkbox;
+    private GameObject checkbox;
+    private GameObject progress;
 
     public void Start()
     {
@@ -20,6 +21,7 @@ public class ChangeText : MonoBehaviour
         readData();
         checkbox = GameObject.FindGameObjectWithTag("checkbox");
         checkbox.SetActive(false);
+        progress = GameObject.FindGameObjectWithTag("progress");
     }
 
     public void Test() //will get called when the button is pressed
@@ -125,6 +127,7 @@ public class ChangeText : MonoBehaviour
             displayText.text = "Press Begin";
             button.text = "Begin";
             checkbox.SetActive(false);
+            progress.GetComponent<TMPro.TextMeshProUGUI>().text = "";
         }
         else
         {
@@ -132,6 +135,7 @@ public class ChangeText : MonoBehaviour
             button.text = "Next";
             counter++;
             checkbox.SetActive(true);
+            progress.GetComponent<TMPro.TextMeshProUGUI>().text = counter.ToString() + "/" + (list.Count -1).ToString();
         }
     }
 }
