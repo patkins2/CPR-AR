@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class MyUIManager : MonoBehaviour
 {
-    [SerializeField] GameObject okButton, panel;
+    [SerializeField] GameObject nextButton, panel, backButton;
  
     //functions that enable or disable the button and panel
     public void ShowAllButtons()
     {
-        okButton.SetActive(true);
+        nextButton.SetActive(true);
+        backButton.SetActive(true);
     }
 
     public void HideAllButtons()
     {
-        okButton.SetActive(false);
+        nextButton.SetActive(false);
+        backButton.SetActive(false);
     }
 
     public void HidePanel()
@@ -29,12 +31,14 @@ public class MyUIManager : MonoBehaviour
 
     public void HideAll()
     {
-        okButton.SetActive(false);
+        nextButton.SetActive(false);
         panel.SetActive(false);
+        backButton.SetActive(false);
     }
     public void ShowAll()
     {
-        okButton.SetActive(true);
+        nextButton.SetActive(true);
         panel.SetActive(true);
+        backButton.SetActive(true);
     }
 }

@@ -1,12 +1,6 @@
-PerceptionRemotingPlugin.dll
-PerceptionDevice.dll
 PlaneFinding.dll
-Microsoft.Holographic.AppRemoting.dll
 AudioPluginMsHRTF.dll
 MicStreamSelector.dll
-Microsoft.Perception.Simulation.dll
 GpuTiming.dll
-HolographicStreamer.dll
 SharingClient.dll
-UnityRemotingWMR.dll
 SpatialUnderstanding.dll

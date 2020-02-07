@@ -1,6 +1,9 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
+        <UnityWSASolutionName>CPR-AR</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Users\patkins2\Documents\Unity Projects\CPR-AR\</UnityProjectDir>
         <UnityWSAPlayerDir>C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
-        <UnityWSAToolsDir>$(SolutionDir)Unity\Tools\</UnityWSAToolsDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
     </PropertyGroup>
 </Project>

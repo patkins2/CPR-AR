@@ -128,6 +128,7 @@ public class ChangeText : MonoBehaviour
             button.text = "Begin";
             checkbox.SetActive(false);
             progress.GetComponent<TMPro.TextMeshProUGUI>().text = "";
+            counter++;
         }
         else
         {
