@@ -132,7 +132,7 @@ public class ChangeText : MonoBehaviour
         }
         else
         {
-            string progress = "\t  " + counter.ToString() + "/" + (list.Count - 1).ToString();
+            string progress = "\t  " + (counter+1).ToString() + "/" + (list.Count - 1).ToString();
             displayText.text = list[counter] + progress;
             checkbox.GetComponentInChildren<Renderer>().material = CheckboxInteraction.wireframe;
             button.text = "Next";
@@ -140,5 +140,11 @@ public class ChangeText : MonoBehaviour
             checkbox.SetActive(true);
             //progress.GetComponent<TMPro.TextMeshProUGUI>().text = counter.ToString() + "/" + (list.Count -1).ToString();
         }
+    }
+
+    public void Timer()
+    {
+        //will go to the next page 3 seconds after the checkbox is clicked
+        Invoke("OneLine", 3);
     }
 }
