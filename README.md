@@ -6,6 +6,7 @@ This is a CPR Manuel/Trainer for Hololens made with Unity. The application displ
 **There are two current versions of the application**
   - The scene "CPR" shows one menu with multiple inscuctions
   - The scene "one_line" show one instruction at a time.
+  - **The scene "test" is only present to test features that could cause issues with current working versions, and it is recommended you don't build off of this scene.**
 
 ***"one_line" is the recommended scene. As some of the features described below are not present in "CPR"***
 
@@ -28,3 +29,8 @@ Future Additions
   - [ ] Embedded Videos and Pictures
   - [ ] Checkbox will change the page after a few seconds.
   - [ ] Checkbox status is constant until restart or completion.
+
+# Notes
+- Hololens 1st Gen
+- Unity Version: 2018.4.12f1
+- HoloToolkit Version : 2017.4.1.0
