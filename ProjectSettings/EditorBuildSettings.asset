@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/CPR.unity
     guid: fcc85936c7808c648935dbb85b336dcf
   - enabled: 1
-    path: Assets/Scenes/one_line_test.unity
+    path: Assets/Scenes/one_line.unity
     guid: 7a9940c7ef0f28244b382bdf5a290dbc
   m_configObjects: {}

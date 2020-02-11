@@ -5,11 +5,7 @@ using UnityEngine;
 public class LookAtCamera : MonoBehaviour
 {
     public Camera cameraToLookAt;
-    void Start()
-    {
-        //transform.Rotate( 180,0,0 );
-    }
-
+    
     //will make the panel always face the user
     void Update()
     {

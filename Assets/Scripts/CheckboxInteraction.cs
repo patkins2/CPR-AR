@@ -6,8 +6,8 @@ public class CheckboxInteraction : MonoBehaviour
 {
     public GameObject buttonIdle;
     private static bool isChecked;
-    Material checkedOff;
-    Material wireframe;
+    public static Material checkedOff;
+    public static Material wireframe;
 
     void Start()
     {
