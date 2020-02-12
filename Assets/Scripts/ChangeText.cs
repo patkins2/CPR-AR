@@ -11,7 +11,7 @@ public class ChangeText : MonoBehaviour
     public TextMesh button;
     List<string> list = new List<string>();
     private GameObject checkbox;
-    //private GameObject progress;
+    CheckboxInteraction checkboxInteraction;
 
     public void Start()
     {
@@ -21,6 +21,7 @@ public class ChangeText : MonoBehaviour
         readData();
         checkbox = GameObject.FindGameObjectWithTag("checkbox");
         checkbox.SetActive(false);
+        checkboxInteraction = checkbox.GetComponent<CheckboxInteraction>();
         //progress = GameObject.FindGameObjectWithTag("progress");
     }
 
@@ -127,24 +128,25 @@ public class ChangeText : MonoBehaviour
             displayText.text = "Press Begin";
             button.text = "Begin";
             checkbox.SetActive(false);
-            //progress.GetComponent<TMPro.TextMeshProUGUI>().text = "";
-            counter++;
+            //counter++;
+            Debug.Log(counter);
         }
         else
         {
+            Debug.Log(counter);
             string progress = "\t  " + (counter+1).ToString() + "/" + (list.Count - 1).ToString();
             displayText.text = list[counter] + progress;
-            checkbox.GetComponentInChildren<Renderer>().material = CheckboxInteraction.wireframe;
+            checkboxInteraction.isChecked = false;
             button.text = "Next";
             counter++;
             checkbox.SetActive(true);
-            //progress.GetComponent<TMPro.TextMeshProUGUI>().text = counter.ToString() + "/" + (list.Count -1).ToString();
         }
     }
 
     public void Timer()
     {
         //will go to the next page 3 seconds after the checkbox is clicked
+        checkboxInteraction.isChecked = true;
         Invoke("OneLine", 3);
     }
 }

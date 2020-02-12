@@ -5,7 +5,7 @@ using UnityEngine;
 public class CheckboxInteraction : MonoBehaviour
 {
     public GameObject buttonIdle;
-    private static bool isChecked;
+    public bool isChecked;
     public static Material checkedOff;
     public static Material wireframe;
 
@@ -16,19 +16,19 @@ public class CheckboxInteraction : MonoBehaviour
         checkedOff = Resources.Load("check", typeof(Material)) as Material;
         wireframe = Resources.Load("wireframe", typeof(Material)) as Material;
     }
-    
-    public void ChangeMaterial()
-    {     
+
+    private void Update()
+    {
         //if the box is tapped, change the material
-        if (isChecked == false)
+        if (isChecked == true)
         {
             buttonIdle.GetComponent<Renderer>().material = checkedOff;
-            isChecked = true;
+            //isChecked = true;
         }
-        else
+        if (isChecked == false)
         {
             buttonIdle.GetComponent<Renderer>().material = wireframe;
-            isChecked = false;
-        }   
+            //isChecked = false;
+        }
     }
 }

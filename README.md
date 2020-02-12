@@ -27,7 +27,7 @@ Voice Commands include:
 
 Future Additions
   - [ ] Embedded Videos and Pictures
-  - [ ] Checkbox will change the page after a few seconds.
+  - [x] ~~Checkbox will change the page after a few seconds.~~
   - [ ] Checkbox status is constant until restart or completion.
 
 # Notes
