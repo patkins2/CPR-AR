@@ -22,7 +22,7 @@ Voice Commands include:
     - i.e. User can say "One Ten" to start the metronome and "Stop" to stop it. 
 
 # Current issues
-  - When running on the hololens, the checkbox becomes rather large when the cursor is not touching it.
+  - ~~When running on the hololens, the checkbox becomes rather large when the cursor is not touching it.~~
 
 
 Future Additions
