@@ -23,12 +23,11 @@ Voice Commands include:
 
 # Current issues
   - When running on the hololens, the checkbox becomes rather large when the cursor is not touching it.
-  - Sometimes checkbox material will not change when clicked, but will start the timer to go to next page.
 
 
 Future Additions
   - [ ] Embedded Videos and Pictures
-  - [x] ~~Checkbox will change the page after a few seconds.~~
+  - [ ] Checkbox will change the page after a few seconds.
   - [ ] Checkbox status is constant until restart or completion.
 
 # Notes
