@@ -17,6 +17,3 @@ Resource.res
 SharingClient.dll
 SpatialUnderstanding.dll
 StoreManifest.xml
-Vuforia.dll
-VuforiaDL.dll
-VuforiaWrapper.dll

@@ -2236,6 +2236,49 @@
             "rid": "aot"
           }
         }
+      },
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
+          "Unity.Analytics.DataPrivacy": "1.0.0",
+          "Unity.TextMeshPro": "1.0.0",
+          "Unity.XR.WindowsMR": "1.0.0"
+        }
+      },
+      "Unity.Analytics.DataPrivacy/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.TextMeshPro/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.XR.WindowsMR/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
       }
     },
     "UAP,Version=v10.0.10240/win10-arm": {
@@ -4555,6 +4598,49 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
+          "Unity.Analytics.DataPrivacy": "1.0.0",
+          "Unity.TextMeshPro": "1.0.0",
+          "Unity.XR.WindowsMR": "1.0.0"
+        }
+      },
+      "Unity.Analytics.DataPrivacy/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.TextMeshPro/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.XR.WindowsMR/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
     },
@@ -6912,6 +6998,49 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
+          "Unity.Analytics.DataPrivacy": "1.0.0",
+          "Unity.TextMeshPro": "1.0.0",
+          "Unity.XR.WindowsMR": "1.0.0"
+        }
+      },
+      "Unity.Analytics.DataPrivacy/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.TextMeshPro/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.XR.WindowsMR/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
       }
     },
     "UAP,Version=v10.0.10240/win10-x64": {
@@ -9240,6 +9369,49 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
+          "Unity.Analytics.DataPrivacy": "1.0.0",
+          "Unity.TextMeshPro": "1.0.0",
+          "Unity.XR.WindowsMR": "1.0.0"
+        }
+      },
+      "Unity.Analytics.DataPrivacy/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.TextMeshPro/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.XR.WindowsMR/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
     },
@@ -11606,6 +11778,49 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
+          "Unity.Analytics.DataPrivacy": "1.0.0",
+          "Unity.TextMeshPro": "1.0.0",
+          "Unity.XR.WindowsMR": "1.0.0"
+        }
+      },
+      "Unity.Analytics.DataPrivacy/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.TextMeshPro/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.XR.WindowsMR/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
       }
     },
     "UAP,Version=v10.0.10240/win10-x86": {
@@ -13934,6 +14149,49 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
+          "Unity.Analytics.DataPrivacy": "1.0.0",
+          "Unity.TextMeshPro": "1.0.0",
+          "Unity.XR.WindowsMR": "1.0.0"
+        }
+      },
+      "Unity.Analytics.DataPrivacy/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.TextMeshPro/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.XR.WindowsMR/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
     },
@@ -16299,6 +16557,49 @@
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
+          "Unity.Analytics.DataPrivacy": "1.0.0",
+          "Unity.TextMeshPro": "1.0.0",
+          "Unity.XR.WindowsMR": "1.0.0"
+        }
+      },
+      "Unity.Analytics.DataPrivacy/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.TextMeshPro/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+        }
+      },
+      "Unity.XR.WindowsMR/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10240",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
     }
@@ -24793,6 +25094,26 @@
         "system.xml.xmlserializer.4.0.11.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Assembly-CSharp/1.0.0": {
+      "type": "project",
+      "path": "../GeneratedProjects/UWP/Assembly-CSharp/project.json",
+      "msbuildProject": "../GeneratedProjects/UWP/Assembly-CSharp/Assembly-CSharp.csproj"
+    },
+    "Unity.Analytics.DataPrivacy/1.0.0": {
+      "type": "project",
+      "path": "../GeneratedProjects/UWP/Unity.Analytics.DataPrivacy/project.json",
+      "msbuildProject": "../GeneratedProjects/UWP/Unity.Analytics.DataPrivacy/Unity.Analytics.DataPrivacy.csproj"
+    },
+    "Unity.TextMeshPro/1.0.0": {
+      "type": "project",
+      "path": "../GeneratedProjects/UWP/Unity.TextMeshPro/project.json",
+      "msbuildProject": "../GeneratedProjects/UWP/Unity.TextMeshPro/Unity.TextMeshPro.csproj"
+    },
+    "Unity.XR.WindowsMR/1.0.0": {
+      "type": "project",
+      "path": "../GeneratedProjects/UWP/Unity.XR.WindowsMR/project.json",
+      "msbuildProject": "../GeneratedProjects/UWP/Unity.XR.WindowsMR/Unity.XR.WindowsMR.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -24828,6 +25149,24 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "uap10.0.10240": {
+          "projectReferences": {
+            "C:\\Users\\patkins2\\Documents\\Unity Projects\\CPR-AR\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+              "projectPath": "C:\\Users\\patkins2\\Documents\\Unity Projects\\CPR-AR\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
+            },
+            "C:\\Users\\patkins2\\Documents\\Unity Projects\\CPR-AR\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj": {
+              "projectPath": "C:\\Users\\patkins2\\Documents\\Unity Projects\\CPR-AR\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj"
+            },
+            "C:\\Users\\patkins2\\Documents\\Unity Projects\\CPR-AR\\App\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj": {
+              "projectPath": "C:\\Users\\patkins2\\Documents\\Unity Projects\\CPR-AR\\App\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj"
+            },
+            "C:\\Users\\patkins2\\Documents\\Unity Projects\\CPR-AR\\App\\GeneratedProjects\\UWP\\Unity.XR.WindowsMR\\Unity.XR.WindowsMR.csproj": {
+              "projectPath": "C:\\Users\\patkins2\\Documents\\Unity Projects\\CPR-AR\\App\\GeneratedProjects\\UWP\\Unity.XR.WindowsMR\\Unity.XR.WindowsMR.csproj"
+            }
+          }
+        }
       }
     },
     "dependencies": {

@@ -1,5 +1,8 @@
 -lock=project.lock.json
 Assembly-CSharp.dll
+Unity.TextMeshPro.dll
+Unity.Analytics.DataPrivacy.dll
+Unity.XR.WindowsMR.dll
 UnityEngine.SpriteMaskModule.dll
 UnityEngine.SpriteShapeModule.dll
 UnityEngine.StreamingModule.dll
@@ -28,9 +31,6 @@ UnityEngine.WindModule.dll
 UnityEngine.XRModule.dll
 UnityEngine.SharedInternalsModule.dll
 UnityEngine.PhysicsModule.dll
-Unity.Analytics.DataPrivacy.dll
-Unity.TextMeshPro.dll
-Unity.XR.WindowsMR.dll
 UnityEngine.AccessibilityModule.dll
 UnityEngine.AIModule.dll
 UnityEngine.AnimationModule.dll

@@ -1,4 +1,3 @@
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\obj\x86\Debug\CPR-AR.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\CPR-AR.exe
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\CPR-AR.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\resources.pri
@@ -123,13 +122,9 @@ C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Syste
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\System.Xml.XDocument.dll
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\System.Xml.XmlDocument.dll
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\System.Xml.XmlSerializer.dll
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Assembly-CSharp.dll
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\BridgeInterface.winmd
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\GLTFSerializationUWP.dll
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Newtonsoft.Json.dll
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Unity.Analytics.DataPrivacy.dll
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Unity.TextMeshPro.dll
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Unity.XR.WindowsMR.dll
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.AccessibilityModule.dll
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.AIModule.dll
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.AnimationModule.dll
@@ -186,10 +181,9 @@ C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Unity
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.XRModule.dll
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngineProxy.dll
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityPlayer.winmd
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Vuforia.UnityExtensions.dll
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\WinRTBridge.dll
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\WinRTLegacy.dll
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Assembly-CSharp.pdb
+C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.SpriteMaskModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.SpriteShapeModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.StreamingModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.StyleSheetsModule.pdb
@@ -215,12 +209,8 @@ C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Unity
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.VRModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.WindModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.XRModule.pdb
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.SpriteMaskModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.SharedInternalsModule.pdb
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.ScreenCaptureModule.pdb
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Unity.Analytics.DataPrivacy.pdb
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Unity.TextMeshPro.pdb
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Unity.XR.WindowsMR.pdb
+C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.PhysicsModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.AccessibilityModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.AIModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.AnimationModule.pdb
@@ -230,6 +220,7 @@ C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Unity
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.ClothModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.CoreModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.CrashReportingModule.pdb
+C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.DirectorModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.GameCenterModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.GridModule.pdb
@@ -241,14 +232,12 @@ C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Unity
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.ParticleSystemModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.PerformanceReportingModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.Physics2DModule.pdb
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.PhysicsModule.pdb
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.DirectorModule.pdb
+C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.ScreenCaptureModule.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\WinRTLegacy.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Newtonsoft.Json.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.Timeline.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.UI.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.SpatialTracking.pdb
-C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Vuforia.UnityExtensions.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityEngine.Networking.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\GLTFSerializationUWP.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\UnityPlayer.dll
@@ -259,6 +248,7 @@ C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Unity
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\obj\x86\Debug\CPR-AR.csprojAssemblyReference.cache
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\obj\x86\Debug\CPR-AR.csproj.CopyComplete
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\obj\x86\Debug\CPR-AR.exe
+C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\obj\x86\Debug\CPR-AR.pdb
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\obj\x86\Debug\ResourceHandlingTask.state
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\obj\x86\Debug\FxResources.Microsoft.CSharp.SR.resw
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\obj\x86\Debug\FxResources.Microsoft.VisualBasic.SR.resw

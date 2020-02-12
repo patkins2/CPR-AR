@@ -5,4 +5,31 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-keep-all
+CPR-AR.sln: modified
+CPR-AR\App.cs: EE433D8D749ADAF740A67A2993F0F7AB
+CPR-AR\AssemblyConverterArgs.txt: B6787CADEF7BE89462DDF78539B272C0
+CPR-AR\CPR-AR.csproj: 636533D7C2BD70841FB71BEB60FF2690
+CPR-AR\CPR-AR.csproj.user: modified
+CPR-AR\Package.appxmanifest: F3810F669F19D2B4F5123CAA15F787AD
+CPR-AR\project.json: CC10A2BA10723B75F669B6E9E5EE19C9
+CPR-AR\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
+CPR-AR\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
+CPR-AR\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE9D870A9D564953775DE
+CPR-AR\Assets\Square44x44Logo.targetsize-24.png: 156637F7B5363E983E7A46D8E533A23D
+CPR-AR\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
+CPR-AR\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
+CPR-AR\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
+CPR-AR\bin\x86\Debug\AppX\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
+CPR-AR\bin\x86\Debug\AppX\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
+CPR-AR\bin\x86\Debug\AppX\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE9D870A9D564953775DE
+CPR-AR\bin\x86\Debug\AppX\Assets\Square44x44Logo.targetsize-24.png: 156637F7B5363E983E7A46D8E533A23D
+CPR-AR\bin\x86\Debug\AppX\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
+CPR-AR\bin\x86\Debug\AppX\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
+CPR-AR\bin\x86\Debug\AppX\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
+CPR-AR\bin\x86\Debug\AppX\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826
+CPR-AR\obj\x86\Debug\CPR-AR.csproj.CopyComplete: D41D8CD98F00B204E9800998ECF8427E
+CPR-AR\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826
+GeneratedProjects\UWP\Assembly-CSharp\project.json: 88AA7FF964823F6407718C34CA0DFE19
+GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\project.json: 88AA7FF964823F6407718C34CA0DFE19
+GeneratedProjects\UWP\Unity.TextMeshPro\project.json: 88AA7FF964823F6407718C34CA0DFE19
+GeneratedProjects\UWP\Unity.XR.WindowsMR\project.json: 88AA7FF964823F6407718C34CA0DFE19

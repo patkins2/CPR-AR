@@ -1,1 +1,8 @@
 C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\CPR-AR.csproj;x86
+C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\Unity.Analytics.DataPrivacy.csproj;x86
+C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\Unity.Analytics.DataPrivacy.csproj;x86
+C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\GeneratedProjects\UWP\Unity.TextMeshPro\Unity.TextMeshPro.csproj;x86
+C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\GeneratedProjects\UWP\Unity.TextMeshPro\Unity.TextMeshPro.csproj;x86
+C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\GeneratedProjects\UWP\Unity.XR.WindowsMR\Unity.XR.WindowsMR.csproj;x86
+C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\GeneratedProjects\UWP\Unity.XR.WindowsMR\Unity.XR.WindowsMR.csproj;x86

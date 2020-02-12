@@ -14,11 +14,8 @@
     <PublisherDisplayName>DefaultCompany</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
-  <Capabilities>
-    <DeviceCapability Name="microphone" />
-  </Capabilities>
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.18362.0" />
+    <TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.10240.0" MaxVersionTested="10.0.18362.0" />
     <PackageDependency Name="Microsoft.NET.CoreRuntime.1.1" MinVersion="1.1.27004.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
     <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.27323.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
@@ -28,7 +25,7 @@
   <Applications>
     <Application Id="App" Executable="CPR-AR.exe" EntryPoint="CPR-AR.App">
       <uap:VisualElements DisplayName="CPR-AR" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="CPR-AR" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        <uap:DefaultTile ShortName="CPR-AR" Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFFFF" />
         <uap:InitialRotationPreference>
           <uap:Rotation Preference="landscape" />
@@ -39,12 +36,15 @@
       </uap:VisualElements>
     </Application>
   </Applications>
+  <Capabilities>
+    <DeviceCapability Name="microphone" />
+  </Capabilities>
   <Extensions>
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
         <Path>UnityPlayer.dll</Path>
-        <ActivatableClass ActivatableClassId="UnityPlayer.AppCallbacks" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnityPlayer.XamlViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnityPlayer.AppCallbacks" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>
@@ -54,11 +54,13 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2019" />
     <build:Item Name="OperatingSystem" Version="10.0.17134.1 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.29311.281" />
-    <build:Item Name="ProjectGUID" Value="{13A45C13-3265-47B8-BC48-A553B569DF55}" />
+    <build:Item Name="ProjectGUID" Value="{13a45c13-3265-47b8-bc48-a553b569df55}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="16.0.29311.281" />
     <build:Item Name="WindowsMobile" Version="10.0.18362.0" />
+    <build:Item Name="WindowsDesktop" Version="10.0.18362.0" />
+    <build:Item Name="WindowsTeam" Version="10.0.18362.0" />
     <build:Item Name="MakePri.exe" Version="10.0.18362.1 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

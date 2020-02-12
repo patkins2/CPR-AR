@@ -437,14 +437,8 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\VuforiaWrapper.dll">
-      <PackagePath>VuforiaWrapper.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\PlaneFinding.dll">
       <PackagePath>PlaneFinding.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\VuforiaDL.dll">
-      <PackagePath>VuforiaDL.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\AudioPluginMsHRTF.dll">
       <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
@@ -454,9 +448,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\GpuTiming.dll">
       <PackagePath>GpuTiming.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Vuforia.dll">
-      <PackagePath>Vuforia.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\SharingClient.dll">
       <PackagePath>SharingClient.dll</PackagePath>
@@ -518,8 +509,8 @@
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Assembly-CSharp.dll">
-      <PackagePath>Assembly-CSharp.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.SpriteMaskModule.dll">
+      <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.SpriteShapeModule.dll">
       <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
@@ -596,23 +587,11 @@
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.XRModule.dll">
       <PackagePath>UnityEngine.XRModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.SpriteMaskModule.dll">
-      <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.ScreenCaptureModule.dll">
-      <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Unity.Analytics.DataPrivacy.dll">
-      <PackagePath>Unity.Analytics.DataPrivacy.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Unity.TextMeshPro.dll">
-      <PackagePath>Unity.TextMeshPro.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Unity.XR.WindowsMR.dll">
-      <PackagePath>Unity.XR.WindowsMR.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.PhysicsModule.dll">
+      <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
@@ -640,6 +619,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.DirectorModule.dll">
+      <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
@@ -674,11 +656,8 @@
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.PhysicsModule.dll">
-      <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.DirectorModule.dll">
-      <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.ScreenCaptureModule.dll">
+      <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -692,14 +671,23 @@
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Vuforia.UnityExtensions.dll">
-      <PackagePath>Vuforia.UnityExtensions.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\GLTFSerializationUWP.dll">
       <PackagePath>GLTFSerializationUWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Assembly-CSharp.dll">
+      <PackagePath>Assembly-CSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Unity.TextMeshPro.dll">
+      <PackagePath>Unity.TextMeshPro.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Unity.Analytics.DataPrivacy.dll">
+      <PackagePath>Unity.Analytics.DataPrivacy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Unity.XR.WindowsMR.dll">
+      <PackagePath>Unity.XR.WindowsMR.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Core\CPR-AR.exe">
       <PackagePath>CPR-AR.exe</PackagePath>
