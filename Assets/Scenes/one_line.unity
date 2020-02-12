@@ -162,7 +162,7 @@ PrefabInstance:
       objectReference: {fileID: 894478245}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3eddd1c29199313478dd3f912bfab2ab, type: 3}
---- !u!21 &149502619
+--- !u!21 &232006665
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -295,6 +295,12 @@ Material:
     - _HoverColorOverride: {r: 1, g: 1, b: 1, a: 1}
     - _InnerGlowColor: {r: 1, g: 1, b: 1, a: 0.75}
     - _RimColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+--- !u!1 &237180110 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100138, guid: d29eeef092f95784eb626786a2a2e3f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1560358000}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &460048088
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,7 +919,7 @@ MonoBehaviour:
   SmoothPositionLerpRatio: 0.5
   SmoothRotationLerpRatio: 0.5
   SmoothScaleLerpRatio: 0.5
---- !u!21 &1228948722
+--- !u!21 &1033257710
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -1429,6 +1435,7 @@ MonoBehaviour:
   nextButton: {fileID: 1810990193}
   panel: {fileID: 1669828152}
   backButton: {fileID: 2121845983}
+  avatar: {fileID: 237180110}
 --- !u!1001 &1560358000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2017,7 +2024,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 149502619}
+      objectReference: {fileID: 1033257710}
     - target: {fileID: 4437881344481686, guid: 40da8a1b3b26ba743b892d890b95a9f9, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.046
@@ -2212,6 +2219,10 @@ MonoBehaviour:
     KeyCode: 273
   - Keyword: Show All
     KeyCode: 274
+  - Keyword: Hide Avatar
+    KeyCode: 97
+  - Keyword: Show Avatar
+    KeyCode: 97
   recognitionConfidenceLevel: 1
 --- !u!114 &1845206621
 MonoBehaviour:
@@ -2436,6 +2447,36 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - Keyword: Hide Avatar
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1510593126}
+          m_MethodName: HideAvatar
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Keyword: Show Avatar
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1510593126}
+          m_MethodName: ShowAvatar
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   IsGlobalListener: 1
   PersistentKeywords: 0
 --- !u!4 &1845206622
@@ -2625,7 +2666,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1228948722}
+      objectReference: {fileID: 232006665}
     - target: {fileID: 65091470401894616, guid: 40da8a1b3b26ba743b892d890b95a9f9,
         type: 3}
       propertyPath: m_Enabled

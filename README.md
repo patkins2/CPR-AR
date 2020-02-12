@@ -15,7 +15,7 @@ The application could also be used for someone making an assesment. Each instruc
 
 Voice Commands include:
   - Hiding/Showing indiviual or all UI components
-    - i.e. "Hide Buttons," "Hide Panel," "Hide All," and vice versa.
+    - i.e. "Hide Buttons," "Hide Panel," "Hide All," "Hide Avatar," and vice versa.
   - Menu Navigation
     - i.e. User can say "Next Page," "Go Back," "Begin," or "Restart."
   - 110 BPM Metronome
