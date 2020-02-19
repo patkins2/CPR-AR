@@ -29,6 +29,7 @@ Future Additions
   - [ ] Embedded Videos and Pictures
   - [x] ~~Checkbox will change the page after a few seconds.~~
   - [ ] Checkbox status is constant until restart or completion.
+  - [ ] Summary once completed
 
 # Notes
 - Hololens 1st Gen
