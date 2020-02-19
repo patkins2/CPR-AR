@@ -6,7 +6,7 @@ public class MyUIManager : MonoBehaviour
 {
     [SerializeField] GameObject nextButton, panel, backButton, avatar;
  
-    //functions that enable or disable the button and panel
+    //functions that enable or disable all UI features
     public void ShowAllButtons()
     {
         nextButton.SetActive(true);

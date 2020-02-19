@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-02-12T20:18:49.855</Modified>
+      <Modified>2020-02-14T17:03:29.368</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\CPR-AR.exe">
       <PackagePath>entrypoint\CPR-AR.exe</PackagePath>
-      <Modified>2020-02-12T20:18:32.525</Modified>
+      <Modified>2020-02-14T17:03:09.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -536,11 +536,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Resource.res">
       <PackagePath>Resource.res</PackagePath>
-      <Modified>2020-02-12T20:18:02.881</Modified>
+      <Modified>2020-02-14T17:02:14.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
-      <Modified>2020-02-12T20:17:49.982</Modified>
+      <Modified>2020-02-14T17:02:01.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -611,15 +611,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2020-02-12T20:17:48.138</Modified>
+      <Modified>2020-02-14T17:01:59.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2020-02-12T20:17:43.683</Modified>
+      <Modified>2020-02-14T17:01:55.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2020-02-12T20:17:41.434</Modified>
+      <Modified>2020-02-14T17:01:53.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -627,43 +627,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2020-02-12T20:17:48.124</Modified>
+      <Modified>2020-02-14T17:01:59.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2020-02-12T20:17:43.793</Modified>
+      <Modified>2020-02-14T17:01:55.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2020-02-12T20:17:43.995</Modified>
+      <Modified>2020-02-14T17:01:55.591</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2020-02-12T20:17:47.595</Modified>
+      <Modified>2020-02-14T17:01:59.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2020-02-12T20:17:41.419</Modified>
+      <Modified>2020-02-14T17:01:53.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2020-02-12T20:17:43.991</Modified>
+      <Modified>2020-02-14T17:01:55.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2020-02-12T20:17:47.579</Modified>
+      <Modified>2020-02-14T17:01:59.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2020-02-12T20:18:02.807</Modified>
+      <Modified>2020-02-14T17:02:14.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2020-02-12T20:18:02.816</Modified>
+      <Modified>2020-02-14T17:02:14.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
-      <Modified>2020-02-12T20:17:47.639</Modified>
+      <Modified>2020-02-14T17:01:59.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -675,251 +675,251 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-02-12T20:18:33.588</Modified>
+      <Modified>2020-02-14T17:03:12.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.604</Modified>
+      <Modified>2020-02-14T17:03:25.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.SpriteShapeModule.dll">
       <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.631</Modified>
+      <Modified>2020-02-14T17:03:25.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.StreamingModule.dll">
       <PackagePath>UnityEngine.StreamingModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.654</Modified>
+      <Modified>2020-02-14T17:03:25.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.684</Modified>
+      <Modified>2020-02-14T17:03:25.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.SubstanceModule.dll">
       <PackagePath>UnityEngine.SubstanceModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.713</Modified>
+      <Modified>2020-02-14T17:03:25.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.751</Modified>
+      <Modified>2020-02-14T17:03:25.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.770</Modified>
+      <Modified>2020-02-14T17:03:26.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.TextCoreModule.dll">
       <PackagePath>UnityEngine.TextCoreModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.806</Modified>
+      <Modified>2020-02-14T17:03:26.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.836</Modified>
+      <Modified>2020-02-14T17:03:26.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.862</Modified>
+      <Modified>2020-02-14T17:03:26.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.970</Modified>
+      <Modified>2020-02-14T17:03:26.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.003</Modified>
+      <Modified>2020-02-14T17:03:26.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.044</Modified>
+      <Modified>2020-02-14T17:03:26.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.077</Modified>
+      <Modified>2020-02-14T17:03:26.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.103</Modified>
+      <Modified>2020-02-14T17:03:26.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.UnityWebRequestAssetBundleModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAssetBundleModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.131</Modified>
+      <Modified>2020-02-14T17:03:26.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.158</Modified>
+      <Modified>2020-02-14T17:03:26.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.196</Modified>
+      <Modified>2020-02-14T17:03:26.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.225</Modified>
+      <Modified>2020-02-14T17:03:26.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.259</Modified>
+      <Modified>2020-02-14T17:03:26.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.280</Modified>
+      <Modified>2020-02-14T17:03:26.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.VFXModule.dll">
       <PackagePath>UnityEngine.VFXModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.312</Modified>
+      <Modified>2020-02-14T17:03:26.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.341</Modified>
+      <Modified>2020-02-14T17:03:26.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.380</Modified>
+      <Modified>2020-02-14T17:03:26.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.400</Modified>
+      <Modified>2020-02-14T17:03:26.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.XRModule.dll">
       <PackagePath>UnityEngine.XRModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.432</Modified>
+      <Modified>2020-02-14T17:03:26.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.460</Modified>
+      <Modified>2020-02-14T17:03:26.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.497</Modified>
+      <Modified>2020-02-14T17:03:26.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.518</Modified>
+      <Modified>2020-02-14T17:03:26.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.552</Modified>
+      <Modified>2020-02-14T17:03:26.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.597</Modified>
+      <Modified>2020-02-14T17:03:26.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.624</Modified>
+      <Modified>2020-02-14T17:03:26.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.652</Modified>
+      <Modified>2020-02-14T17:03:26.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.689</Modified>
+      <Modified>2020-02-14T17:03:26.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:47.718</Modified>
+      <Modified>2020-02-14T17:03:26.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.402</Modified>
+      <Modified>2020-02-14T17:03:27.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.422</Modified>
+      <Modified>2020-02-14T17:03:27.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.445</Modified>
+      <Modified>2020-02-14T17:03:27.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2020-02-12T20:17:54.498</Modified>
+      <Modified>2020-02-14T17:02:06.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.473</Modified>
+      <Modified>2020-02-14T17:03:27.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.494</Modified>
+      <Modified>2020-02-14T17:03:27.459</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.516</Modified>
+      <Modified>2020-02-14T17:03:27.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.568</Modified>
+      <Modified>2020-02-14T17:03:27.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.591</Modified>
+      <Modified>2020-02-14T17:03:27.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.611</Modified>
+      <Modified>2020-02-14T17:03:27.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.LocalizationModule.dll">
       <PackagePath>UnityEngine.LocalizationModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.632</Modified>
+      <Modified>2020-02-14T17:03:27.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.677</Modified>
+      <Modified>2020-02-14T17:03:27.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.702</Modified>
+      <Modified>2020-02-14T17:03:27.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.739</Modified>
+      <Modified>2020-02-14T17:03:27.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.758</Modified>
+      <Modified>2020-02-14T17:03:27.742</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.823</Modified>
+      <Modified>2020-02-14T17:03:27.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.876</Modified>
+      <Modified>2020-02-14T17:03:27.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.960</Modified>
+      <Modified>2020-02-14T17:03:27.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
-      <Modified>2020-02-12T20:18:48.984</Modified>
+      <Modified>2020-02-14T17:03:27.973</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2020-02-12T20:18:49.056</Modified>
+      <Modified>2020-02-14T17:03:28.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\GLTFSerializationUWP.dll">
       <PackagePath>GLTFSerializationUWP.dll</PackagePath>
-      <Modified>2020-02-12T20:18:49.086</Modified>
+      <Modified>2020-02-14T17:03:28.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.380</Modified>
+      <Modified>2020-02-14T17:03:25.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Unity.TextMeshPro.dll">
       <PackagePath>Unity.TextMeshPro.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.516</Modified>
+      <Modified>2020-02-14T17:03:25.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Unity.Analytics.DataPrivacy.dll">
       <PackagePath>Unity.Analytics.DataPrivacy.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.542</Modified>
+      <Modified>2020-02-14T17:03:25.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\Unity.XR.WindowsMR.dll">
       <PackagePath>Unity.XR.WindowsMR.dll</PackagePath>
-      <Modified>2020-02-12T20:18:46.580</Modified>
+      <Modified>2020-02-14T17:03:25.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\patkins2\Documents\Unity Projects\CPR-AR\App\CPR-AR\bin\x86\Debug\Core\CPR-AR.exe">
       <PackagePath>CPR-AR.exe</PackagePath>
-      <Modified>2020-02-12T20:18:49.841</Modified>
+      <Modified>2020-02-14T17:03:29.354</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

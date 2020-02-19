@@ -8,10 +8,10 @@ public class ChangeText : MonoBehaviour
 {
     public Text displayText; //the text that is displayed
     public static int counter; //counter used for change the information on the menu
-    public TextMesh button;
-    List<string> list = new List<string>();
-    private GameObject checkbox;
-    CheckboxInteraction checkboxInteraction;
+    public TextMesh button; //the text displayed on the button
+    List<string> list = new List<string>(); //list for the instructions
+    private GameObject checkbox; //the checkbox
+    CheckboxInteraction checkboxInteraction; //used for changing the variable in CheckboxInteraction
 
     public void Start()
     {
@@ -20,15 +20,13 @@ public class ChangeText : MonoBehaviour
         counter = 0;
         readData();
         checkbox = GameObject.FindGameObjectWithTag("checkbox");
-        checkbox.SetActive(false);
+        checkbox.SetActive(false); //checkbox will be deactivated on start
         checkboxInteraction = checkbox.GetComponent<CheckboxInteraction>();
-        //progress = GameObject.FindGameObjectWithTag("progress");
     }
 
     public void Test() //will get called when the button is pressed
     {
         button.text = "Next";
-        //Debug.Log(list[0]);
 
         //the value of counter will determine which screen is displayed. More can be added, just create more cases.
         switch (counter)
@@ -103,7 +101,6 @@ public class ChangeText : MonoBehaviour
 
     public void StartOver()//starts the app over, but seems to cause some issue with the audio listener. Need to look into it
     {
-        //SceneManager.LoadScene("CPR");
         Application.LoadLevel(Application.loadedLevel);
     }
 
@@ -128,12 +125,9 @@ public class ChangeText : MonoBehaviour
             displayText.text = "Press Begin";
             button.text = "Begin";
             checkbox.SetActive(false);
-            //counter++;
-            Debug.Log(counter);
         }
         else
         {
-            Debug.Log(counter);
             string progress = "\t  " + (counter+1).ToString() + "/" + (list.Count - 1).ToString();
             displayText.text = list[counter] + progress;
             checkboxInteraction.isChecked = false;

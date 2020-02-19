@@ -12,6 +12,7 @@ public class CheckboxInteraction : MonoBehaviour
     void Start()
     {
         isChecked = false;
+
         //setting the materials
         checkedOff = Resources.Load("check", typeof(Material)) as Material;
         wireframe = Resources.Load("wireframe", typeof(Material)) as Material;

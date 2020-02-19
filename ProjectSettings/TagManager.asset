@@ -6,6 +6,7 @@ TagManager:
   tags:
   - checkbox
   - progress
+  - timer
   layers:
   - Default
   - TransparentFX
