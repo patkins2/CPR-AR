@@ -12,6 +12,8 @@ public class ChangeText : MonoBehaviour
     List<string> list = new List<string>(); //list for the instructions
     private GameObject checkbox; //the checkbox
     CheckboxInteraction checkboxInteraction; //used for changing the variable in CheckboxInteraction
+    GameObject timerObj; //the timer obj
+    Timer timer; //used for changing variable in Timer
 
     public void Start()
     {
@@ -22,6 +24,8 @@ public class ChangeText : MonoBehaviour
         checkbox = GameObject.FindGameObjectWithTag("checkbox");
         checkbox.SetActive(false); //checkbox will be deactivated on start
         checkboxInteraction = checkbox.GetComponent<CheckboxInteraction>();
+        timerObj = GameObject.FindGameObjectWithTag("timer");
+        timer = timerObj.GetComponent<Timer>();
     }
 
     public void Test() //will get called when the button is pressed
@@ -125,6 +129,9 @@ public class ChangeText : MonoBehaviour
             displayText.text = "Press Begin";
             button.text = "Begin";
             checkbox.SetActive(false);
+            timer.timeElapsed = Mathf.RoundToInt(timer.timeElapsed); //round
+            timer.timerText.text = "Time Elapsed: " + timer.timeElapsed.ToString(); //set the text
+            timer.timeElapsed = 0; //reset timer
         }
         else
         {
@@ -137,7 +144,7 @@ public class ChangeText : MonoBehaviour
         }
     }
 
-    public void Timer()
+    public void CheckBoxTimer()
     {
         //will go to the next page 3 seconds after the checkbox is clicked
         checkboxInteraction.isChecked = true;

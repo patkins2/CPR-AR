@@ -29,7 +29,8 @@ Future Additions
   - [ ] Embedded Videos and Pictures
   - [x] ~~Checkbox will change the page after a few seconds.~~
   - [ ] Checkbox status is constant until restart or completion.
-  - [ ] Summary once completed
+  - [x] ~~Summary once completed~~
+  - [ ] Set up using a real mannequin with some image detection library (probably Vuforia)
 
 # Notes
 - Hololens 1st Gen

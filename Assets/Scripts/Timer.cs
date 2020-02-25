@@ -1,29 +1,34 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    double timeElapsed;
-    GameObject timerObj;
-    string scr; 
-        
+    //Because of the way this app runs, resetting the timer, and displaying the info is handled in ChangeText.cs
+
+    public float timeElapsed;
+    GameObject checkbox;
+    public TextMeshProUGUI timerText;
+         
     // Start is called before the first frame update
     void Start()
     {
-        timerObj = GameObject.FindGameObjectWithTag("timer");
-        scr = "Timer";
+        checkbox = GameObject.FindGameObjectWithTag("checkbox");
+        timeElapsed = 0;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (ChangeText.counter != 0)
-            timeElapsed += Time.deltaTime;
+        if(checkbox.activeSelf == true)
+        {
+            timeElapsed += Time.deltaTime; //track the elapsed timer
+            timerText.gameObject.SetActive(false); //turn off the text while going through the menu
+        }
         else
         {
-            Debug.Log(timeElapsed);
-            (timerObj.GetComponent(scr) as MonoBehaviour).enabled = false;
+            timerText.gameObject.SetActive(true); //turn on the text
+            //rounding the number and displaying the text is handled in ChangeText.OneLine()
         }
     }
 }
