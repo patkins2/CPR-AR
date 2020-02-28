@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class ChangeText : MonoBehaviour
 {
-    public Text displayText; //the text that is displayed
+    public TextMeshProUGUI displayText; //the text that is displayed
     public static int counter; //counter used for change the information on the menu
     public TextMesh button; //the text displayed on the button
     List<string> list = new List<string>(); //list for the instructions
@@ -14,6 +15,8 @@ public class ChangeText : MonoBehaviour
     CheckboxInteraction checkboxInteraction; //used for changing the variable in CheckboxInteraction
     GameObject timerObj; //the timer obj
     Timer timer; //used for changing variable in Timer
+    GameObject progressObj;
+    TextMeshProUGUI progressText;
 
     public void Start()
     {
@@ -26,6 +29,9 @@ public class ChangeText : MonoBehaviour
         checkboxInteraction = checkbox.GetComponent<CheckboxInteraction>();
         timerObj = GameObject.FindGameObjectWithTag("timer");
         timer = timerObj.GetComponent<Timer>();
+        progressObj = GameObject.FindGameObjectWithTag("progress");
+        progressText = progressObj.GetComponent<TextMeshProUGUI>();
+
     }
 
     public void Test() //will get called when the button is pressed
@@ -80,7 +86,7 @@ public class ChangeText : MonoBehaviour
     }
     public void Next() //In truth, this function isn't necessary. But it makes the keywords in the inspector easier to follow. 
     {
-        if (SceneManager.GetActiveScene().name.Equals("CPR") || SceneManager.GetActiveScene().name.Equals("test"))
+        if (SceneManager.GetActiveScene().name.Equals("CPR"))
         {
             Test();
         }
@@ -129,14 +135,18 @@ public class ChangeText : MonoBehaviour
             displayText.text = "Press Begin";
             button.text = "Begin";
             checkbox.SetActive(false);
+            progressObj.SetActive(false);
             timer.timeElapsed = Mathf.RoundToInt(timer.timeElapsed); //round
             timer.timerText.text = "Time Elapsed: " + timer.timeElapsed.ToString(); //set the text
             timer.timeElapsed = 0; //reset timer
         }
         else
         {
-            string progress = "\t  " + (counter+1).ToString() + "/" + (list.Count - 1).ToString();
-            displayText.text = list[counter] + progress;
+            progressObj.SetActive(true);
+            string progress = (counter+1).ToString() + "/" + (list.Count - 1).ToString();
+            //displayText.text = list[counter] + progress;
+            progressText.text = progress;
+            displayText.text = list[counter];
             checkboxInteraction.isChecked = false;
             button.text = "Next";
             counter++;
