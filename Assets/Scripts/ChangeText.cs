@@ -31,7 +31,6 @@ public class ChangeText : MonoBehaviour
         timer = timerObj.GetComponent<Timer>();
         progressObj = GameObject.FindGameObjectWithTag("progress");
         progressText = progressObj.GetComponent<TextMeshProUGUI>();
-
     }
 
     public void Test() //will get called when the button is pressed
