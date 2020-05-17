@@ -4,11 +4,12 @@ This is a CPR Manuel/Trainer for Hololens made with Unity. The application displ
 
 # Features
 **There are two current versions of the application**
+  - The scene "new panel" is the most up-to-date and features a newer, sleeker panel. 
   - The scene "CPR" shows one menu with multiple inscuctions
   - The scene "one_line" show one instruction at a time.
   - **The scene "test" is only present to test features that could cause issues with current working versions, and it is recommended you don't build off of this scene. If you need to test new features, make a duplicate of your scene and rename it to text and remove the old one.**
 
-***"one_line" is the recommended scene. As some of the features described below are not present in "CPR"***
+***"new panel" is the recommended scene. As some of the features described below are not present in "CPR"***
 
 As with the menu previously described, features also include voice commands, a metronome, and a 3D avatar placed in the scene if the user wishes to simulate using the app in the field.
 The application could also be used for someone making an assesment. Each instruction has a small checkbox that the user can check off to help keep track of progress.
@@ -23,7 +24,7 @@ Voice Commands include:
 
 # Current issues
   - ~~When running on the hololens, the checkbox becomes rather large when the cursor is not touching it.~~
-  - Buttons don't move with the panel perfectly.
+  - ~~Buttons don't move with the panel perfectly.~~
 
 
 Future Additions
@@ -35,4 +36,5 @@ Future Additions
 # Notes
 - Hololens 1st Gen
 - Unity Version: 2018.4.12f1
-- HoloToolkit Version : 2017.4.1.0
+- Microsoft Mixed Reality Toolkit Version: 2.3.0
+- ~~HoloToolkit Version : 2017.4.1.0~~
