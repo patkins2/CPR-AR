@@ -24,12 +24,10 @@ public class CheckboxInteraction : MonoBehaviour
         if (isChecked == true)
         {
             buttonIdle.GetComponent<Renderer>().material = checkedOff;
-            //isChecked = true;
         }
         if (isChecked == false)
         {
             buttonIdle.GetComponent<Renderer>().material = wireframe;
-            //isChecked = false;
         }
     }
 }

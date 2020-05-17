@@ -7,7 +7,8 @@ using TMPro;
 
 public class ChangeText : MonoBehaviour
 {
-    public TextMeshProUGUI displayText; //the text that is displayed
+   // public TextMeshProUGUI displayText; //the text that is displayed
+    public TextMeshPro displayText;
     public static int counter; //counter used for change the information on the menu
     public TextMesh button; //the text displayed on the button
     List<string> list = new List<string>(); //list for the instructions
@@ -15,8 +16,8 @@ public class ChangeText : MonoBehaviour
     CheckboxInteraction checkboxInteraction; //used for changing the variable in CheckboxInteraction
     GameObject timerObj; //the timer obj
     Timer timer; //used for changing variable in Timer
-    GameObject progressObj;
-    TextMeshProUGUI progressText;
+    public GameObject progressObj; //object for menu progress
+    TextMeshPro progressText; //the text for the menu progress
 
     public void Start()
     {
@@ -29,10 +30,10 @@ public class ChangeText : MonoBehaviour
         checkboxInteraction = checkbox.GetComponent<CheckboxInteraction>();
         timerObj = GameObject.FindGameObjectWithTag("timer");
         timer = timerObj.GetComponent<Timer>();
-        progressObj = GameObject.FindGameObjectWithTag("progress");
-        progressText = progressObj.GetComponent<TextMeshProUGUI>();
+        progressText = progressObj.GetComponent<TextMeshPro>();
+        progressObj.SetActive(false); //progress wont be active until the begin button is pressed
     }
-
+    //Test() is no longer needed, but leaving it here in the event it is needed in the future
     public void Test() //will get called when the button is pressed
     {
         button.text = "Next";
@@ -97,7 +98,8 @@ public class ChangeText : MonoBehaviour
 
     public void GoBack()
     {
-        counter -= 2; //since the counter is incremented in the switch case (or in OneLine), you have to subtract 2 in order to go back a page
+        //since the counter is incremented in the switch case (or in OneLine), you have to subtract 2 in order to go back a page
+        counter -= 2; 
         if (SceneManager.GetActiveScene().name.Equals("CPR") || SceneManager.GetActiveScene().name.Equals("test"))
         {
             Test();
@@ -107,12 +109,12 @@ public class ChangeText : MonoBehaviour
             OneLine();
         }
     }
-
-    public void StartOver()//starts the app over, but seems to cause some issue with the audio listener. Need to look into it
+    //starts the app over, but seems to cause some issue with the audio listener. Need to look into it
+    public void StartOver()
     {
         Application.LoadLevel(Application.loadedLevel);
     }
-
+    //gets the instructions from a txt file located in /Assests/Resources
     public void readData()
     {
         TextAsset textAsset = Resources.Load<TextAsset>("cpr_insructions");
@@ -126,15 +128,20 @@ public class ChangeText : MonoBehaviour
         }
     }
 
+    //Main driver for getting through the menu
     public void OneLine()
     {
+        //Debug.Log(counter);
+        //Debug.Log(list.Count - 1);
         if (counter >= list.Count - 1 || counter < 0)
         {
             counter = 0;
             displayText.text = "Press Begin";
             button.text = "Begin";
+            //make these two inactive again as if the app just started
             checkbox.SetActive(false);
             progressObj.SetActive(false);
+
             timer.timeElapsed = Mathf.RoundToInt(timer.timeElapsed); //round
             timer.timerText.text = "Time Elapsed: " + timer.timeElapsed.ToString(); //set the text
             timer.timeElapsed = 0; //reset timer
@@ -142,10 +149,12 @@ public class ChangeText : MonoBehaviour
         else
         {
             progressObj.SetActive(true);
+            
+            //setting the text in the panel
             string progress = (counter+1).ToString() + "/" + (list.Count - 1).ToString();
-            //displayText.text = list[counter] + progress;
             progressText.text = progress;
             displayText.text = list[counter];
+
             checkboxInteraction.isChecked = false;
             button.text = "Next";
             counter++;
